@@ -53,6 +53,12 @@ section {
 }
 
 
+#row13 p {
+    margin-left: calc(100% * 3 / 6);
+    text-align: right;
+}
+
+
 
 /* ************************************************ */
 /* CSS for index2
