@@ -41,3 +41,15 @@ p.callout {
 #row4 p {
     margin-left: calc(100% * 2 / 6)
 }
+
+
+/* ************************************************ */
+/* CSS for index2
+/* ************************************************ */
+
+/* inherit th baseline main code above and add to it */
+body#secondlayout main {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(9, auto
+}
