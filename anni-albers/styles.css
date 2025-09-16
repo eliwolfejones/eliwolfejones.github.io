@@ -81,10 +81,10 @@ p.callout {
 #secondlayout #para9 {grid-area: p9;}
 #secondlayout #para10 {grid-area: p10;}
 #secondlayout #para11 {grid-area: p11;}
-#secondlayout .callout1 {grid-area: c1;} 
-#secondlayout .callout2 {grid-area: c2;}
-#secondlayout .callout3 {grid-area: c3;}
-#secondlayout .callout4 {grid-area: c4;}
+#secondlayout #callout1 {grid-area: c1;} 
+#secondlayout #callout2 {grid-area: c2;}
+#secondlayout #callout3 {grid-area: c3;}
+#secondlayout #callout4 {grid-area: c4;}
 #secondlayout #titlerow2 {grid-area: title2;}
 
 #secondlayout p {
