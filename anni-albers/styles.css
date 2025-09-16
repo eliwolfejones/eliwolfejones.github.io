@@ -66,7 +66,9 @@ p.callout {
         'p9 p9 p9 c4 c4 .'
         '. . . p10 p10 p10'
         'p11 p11 p11 . . .'
-        'title2 title2 title2 title2 title2 title2';
+        'title2 title2 title2 title2 title2 title2'
+        'p12 p12 . . p13 p13'
+        'p12 p12 . . p13 p13';
 }
 
 #secondlayout #titlerow {grid-area: title;}
@@ -81,6 +83,8 @@ p.callout {
 #secondlayout #para9 {grid-area: p9;}
 #secondlayout #para10 {grid-area: p10;}
 #secondlayout #para11 {grid-area: p11;}
+#secondlayout #para12 {grid-area: p12;}
+#secondlayout #para13 {grid-area: p13;}
 #secondlayout #callout1 {grid-area: c1;} 
 #secondlayout #callout2 {grid-area: c2;}
 #secondlayout #callout3 {grid-area: c3;}
