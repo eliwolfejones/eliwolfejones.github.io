@@ -78,6 +78,15 @@ section {
     text-align: center
 }
 
+#secondlayout #para2,
+#para4,
+#para6,
+#para8,
+#para10,
+#para13 {
+    text-align: right;
+}
+
 #secondlayout main {
     display: grid;
     grid-template-columns: repeat(6, calc(100% / 6));
