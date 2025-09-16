@@ -64,7 +64,19 @@ section {
 /* CSS for index2
 /* ************************************************ */
 
-/* inherit th baseline main code above and add to it */
+/* inherit the baseline main code above and add to it */
+
+
+#secondlayout #callout1 {
+    text-align: center;
+}
+
+#secondlayout #callout2,
+#callout3,
+#callout4 {
+    margin-top: 2em;
+    text-align: center
+}
 
 #secondlayout main {
     display: grid;
