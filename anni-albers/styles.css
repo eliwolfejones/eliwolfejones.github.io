@@ -49,7 +49,7 @@ p.callout {
 
 /* inherit th baseline main code above and add to it */
 
-body#secondlayout main {
+#secondlayout main {
     display: grid;
     grid-template-columns: repeat(6, calc(100% / 6));
     grid-template-rows: repeat(11, auto);
