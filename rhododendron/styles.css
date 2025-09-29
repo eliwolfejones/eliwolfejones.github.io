@@ -45,7 +45,7 @@ main {
     font-size: 2.5em;
 }
 
-main h2, p, ul {
+main h3, p, ul {
     color: white;
 }
 
@@ -73,7 +73,7 @@ main {
     bottom: 0;
     height: 90vh;
     background-color: #4d2547;
-    font-size: 25px;
+    font-size: 30px;
 }
     
 }
