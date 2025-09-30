@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Media Queries</title>
+
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style>
+        /* in-file CSS here */
+    </style>
+
+
+</head>
+
+<body>
+    <h1>CSS Media Queries</h1>
+    <section>
+        <p>
+            A media query is used to set up a website so that it will work on multiple resolutions and devices. Website designers use media queries to make layouts different on each resolution to make sure they have an organized layout on each device that fits the screen it’s displayed on. 
+        </p>
+    </section>
+    <section>
+        <ul>
+            <li>
+                @media orientation: orientation is used to set up either landscape or portrait orientation, so if you had a device that could do both landscape and portrait like a phone you can make two different layouts for the same type of device. 
+            </li>
+            <li>
+                @media print: print makes it so you can set the layout when you print the page from the layout. For example, if you put font-size: 20pt under a print media query it will make the font 20pt only when you print it but not on the website online. 
+            </li>
+            <li>
+                @media screen and max-width: max-width makes it so that if the screen is under the width set it will use the layout that follows. For example, if you put @media screen and (max-width: 1000px) and make the font size 50pt the font will be 50pt when the screen is under 1000px. 
+            </li>
+            <li>
+                @media screen and min-width: min-width makes it so that if the screen is over the specifi width it uses the layout that is classified in that media query. For example, if you put in the code @media screen and (min-width: 300px) and put the font color as purple the text will only be purple when the screen is over 300px. 
+            </li>
+        </ul>
+    </section>
+</body>
