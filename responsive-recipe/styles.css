@@ -32,3 +32,9 @@ header p {
     width: 100vw;
     height: 60vh;
 }
+
+main {
+    margin-top: 100vh;
+    padding: 2vw;
+    max-width: 800px;
+}
