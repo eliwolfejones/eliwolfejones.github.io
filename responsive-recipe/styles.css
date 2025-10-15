@@ -40,9 +40,14 @@ header p {
 
 main {
     padding: 1vw;
-    line-height: 1.6;
+    line-height: 2;
 }
 
 main h4 {
     font-style: bold;
+    font-size: 20px;
+}
+
+main h2{
+    font-size: 30px
 }
