@@ -34,7 +34,5 @@ header p {
 }
 
 main {
-    margin-top: 100vh;
     padding: 2vw;
-    max-width: 800px;
 }
