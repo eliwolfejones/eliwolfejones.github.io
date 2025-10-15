@@ -10,4 +10,10 @@ header {
 
 header h1 {
     text-align: center;
+    position: absolute;
+}
+
+header img {
+    position: absolute;
+    width: 100vw;
 }
