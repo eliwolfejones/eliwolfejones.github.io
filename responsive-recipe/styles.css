@@ -19,9 +19,10 @@ header p {
 }
 
 #recipe-image {
+    background-image: url("david-todd-mccarty-IZcorReJ9WU-unsplash.jpg");
     background-size: cover;
     background-position: center center;
     position: absolute;
     width: 100vw;
-    background-image: url("david-todd-mccarty-IZcorReJ9WU-unsplash.jpg");
+    height: 50vh;
 }
