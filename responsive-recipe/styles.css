@@ -13,6 +13,11 @@ header h1 {
     position: absolute;
 }
 
+header p {
+    text-align: right;
+    position: reseponsive;
+}
+
 #recipe-image {
     background-size: cover;
     margin-top: 50px;
