@@ -36,3 +36,7 @@ header p {
 main {
     padding: 2vw;
 }
+
+main h4 {
+    font-style: bold;
+}
