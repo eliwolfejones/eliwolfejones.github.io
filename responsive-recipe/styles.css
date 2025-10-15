@@ -51,3 +51,22 @@ main h4 {
 main h2{
     font-size: 30px
 }
+
+@media screen and (orientation: landscape) {
+
+    #recipe-image {
+        height: 50vw;
+    }
+
+header h1 {
+    width: 50%;
+    }
+
+header p {
+    width: 50%;
+    margin-left: 50vh;
+    height: 60vh;
+    margin-top: 10vh;
+}
+
+}
