@@ -20,7 +20,6 @@ header p {
 }
 
 #recipe-image {
-    background-image: url("david-todd-mccarty-IZcorReJ9WU-unsplash.jpg");
     background-size: cover;
     background-position: center center;
     position: absolute;
