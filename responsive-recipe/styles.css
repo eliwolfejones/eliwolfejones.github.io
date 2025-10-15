@@ -5,7 +5,7 @@
 
 header {
     width: 100%;
-    height: 100vh;
+    height: ;
 }
 
 header h1 {
@@ -20,7 +20,6 @@ header p {
 
 #recipe-image {
     background-size: cover;
-    margin-top: 50px;
     background-position: center center;
     position: absolute;
     width: 100vw;
