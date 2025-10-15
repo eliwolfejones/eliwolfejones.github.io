@@ -34,7 +34,8 @@ header p {
 }
 
 main {
-    padding: 2vw;
+    padding: 1vw;
+    line-height: 1.6;
 }
 
 main h4 {
