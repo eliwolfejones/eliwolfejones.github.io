@@ -13,7 +13,8 @@ header h1 {
     position: absolute;
 }
 
-header img {
+#recipe-image {
     position: absolute;
     width: 100vw;
+    background-image: url("david-todd-mccarty-IZcorReJ9WU-unsplash.jpg");
 }
