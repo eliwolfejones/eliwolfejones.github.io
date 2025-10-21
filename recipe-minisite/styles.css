@@ -74,7 +74,17 @@ main h2{
 
 @media screen and (orientation: landscape) {
 
-    #recipe-image {
+    #pretzel-image {
+        width: 50%;
+        height: 50vh;
+    }
+
+    #lemonade-image {
+        width: 50%;
+        height: 50vh;
+    }
+    
+    #cookie-image {
         width: 50%;
         height: 50vh;
     }
