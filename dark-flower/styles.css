@@ -49,6 +49,14 @@ main h3, p, ul {
     color: white;
 }
 
+body.darkMode {
+    background-color: darkgrey;
+    color: white;
+}
+
+body.darkMode h1 {
+    color: red;
+}
 
 @media screen and (orientation: landscape) {
 
