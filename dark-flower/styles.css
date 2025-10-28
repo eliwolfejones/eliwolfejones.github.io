@@ -49,6 +49,10 @@ main h3, p, ul {
     color: black;
 }
 
+#toggleDarkMode {
+    margin-top: 2em;
+}
+
 body.darkMode {
     background-color: black;
     color: white;
