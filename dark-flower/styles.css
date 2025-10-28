@@ -1,0 +1,79 @@
+/* mobile-first design for Pacific Rhododendron layout */
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+main {
+    padding: 10px;
+    width: 100%;
+    height: 70vh;
+    background-color: #4d2547;
+}
+
+#flowerpicture {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Pacific Rhododendron 2 - Gary Monroe-1.jpeg");
+    background-size: cover;
+    background-position: center center;
+}
+
+#flowertitle {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+#flowertitle h1 {
+    position: absolute;
+    bottom: 0;
+    left: 1em;
+    color: white;
+    font-size: 2.5em;
+}
+
+main h3, p, ul {
+    color: white;
+}
+
+
+@media screen and (orientation: landscape) {
+
+    #flowerpicture {
+            width: 50vw;
+    }
+
+    #flowertitle {
+            width: 50vw;
+            left: 50vw;
+            height: 6em;
+            background-color: #4d2547;
+    }
+
+    #flowertitle h1 {
+        width: 45vw;
+    }
+main {
+    position: absolute;
+    width: 50vw;
+    left: 50vw;
+    bottom: 0;
+    height: 90vh;
+    background-color: #4d2547;
+    font-size: 30px;
+}
+    
+}
