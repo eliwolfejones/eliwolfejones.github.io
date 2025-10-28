@@ -41,23 +41,26 @@ main {
     position: absolute;
     bottom: 0;
     left: 1em;
-    color: white;
+    color: black;
     font-size: 2.5em;
 }
 
 main h3, p, ul {
-    color: white;
+    color: black;
 }
 
 body.darkMode {
-    background-color: darkgrey;
+    background-color: black;
     color: white;
 }
 
 body.darkMode h1 {
-    color: red;
+    color: white;
 }
 
+body.darkMode main {
+    color: white;
+}
 @media screen and (orientation: landscape) {
 
     #flowerpicture {
@@ -68,7 +71,8 @@ body.darkMode h1 {
             width: 50vw;
             left: 50vw;
             height: 6em;
-            background-color: #4d2547;
+            background-color: pink;
+            color: black;
     }
 
     #flowertitle h1 {
@@ -80,7 +84,8 @@ main {
     left: 50vw;
     bottom: 0;
     height: 90vh;
-    background-color: #4d2547;
+    background-color: pink;
+    color: black;
     font-size: 30px;
 }
     
