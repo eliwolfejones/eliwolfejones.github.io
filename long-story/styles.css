@@ -23,7 +23,7 @@ h1, h2, p {
 /* 1 section of 200vh + 5 sections of 100vh == 600vh with a tall background photo of the building */
 main {
     height: 600vh;
-    background-image: url("../images/empire-state-building.jpg");
+    background-image: url("getty_180262211_372628.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
