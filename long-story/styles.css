@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap');
+
 * {
     box-sizing: border-box; 
 	padding: 0; 
@@ -73,7 +75,7 @@ section > .instructions {
 #section1 h1 {
     font-size: 7rem;
     line-height: 6rem;
-    font-family: Limelight, serif;
+    font-family: "Stack Sans Notch", serif;
     margin-left: -0.4rem; 
     padding-left: 1rem; 
 }
