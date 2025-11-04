@@ -7,7 +7,7 @@
 	margin: 0; 
 }
 
-html, h1 {
+h1 {
     font-family: "Stack Sans Notch", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -30,35 +30,33 @@ main {
 section {
     position: relative;
     height: 100vh;
-    /* border-bottom: dashed 1px #fff5; /* comment in to see faint division lines between sections */
+
 }
 
 #section1 {
     height: 200vh;
 }
 
-/* content divs within the sections are positioned absolutely to the top and right, almost half the page wide */
+
 section > .content {
     position: absolute;
     width: 42vw;
     top: 20vh;
-    right: min(4vw, calc( 4vw * 3 * var(--progress) ) ); /* uses the Locomotive Scroll added variable "--progress" to calculate right position */
-    opacity: calc( 8 * var(--progress) ); /* uses the Locomotive Scroll added variable "--progress" to calculate opacity */
+    right: min(4vw, calc( 4vw * 3 * var(--progress) ) ); 
+    opacity: calc( 8 * var(--progress) );
 }
 
 #section1 > .content,
 #section5 > .content {
-    right: 4vw; /* no variable scrolling on the first section */
-    opacity: 1.0; /* no variable opacity on the first section */
+    right: 4vw; 
+    opacity: 1.0; 
 }
 
-/* paragraph tags are given a size and padding */
-section > .content > p {
+
     font-size: 2rem;
     padding: 1rem;
 }
 
-/* position the "scroll down" instructions at the bottom of the screen, aligned with .content */
 section > .instructions {
     position: absolute;
     bottom: 102vh;
@@ -68,26 +66,26 @@ section > .instructions {
     text-transform: uppercase;
     font-size: 1rem;
     color: #000;
-    padding-left: 1rem; /* to align with paragraphs */
-    opacity: calc(1 - (5 * var(--progress) ) ); /* uses the Locomotive Scroll added variable "--progress" to calculate opacity */
+    padding-left: 1rem; 
+    opacity: calc(1 - (5 * var(--progress) ) ); 
 }
 
-/* transform the header and paragraph text in the title block */
+
 #section1 p,
 #section1 h1 {
     text-transform: uppercase;
 }
 
-/* set font, size, and spacing on the h1 tag */
+
 #section1 h1 {
     font-size: 7rem;
     line-height: 6rem;
     font-family: Limelight, serif;
-    margin-left: -0.4rem; /* due to the size and design of the font, bump it left a tiny bit for visual alignment */
-    padding-left: 1rem; /* to align with paragraphs */
+    margin-left: -0.4rem; 
+    padding-left: 1rem; 
 }
 
-/* change the color in the last section due to the background image */
+
 section p {
     background-color: #cfddebbb;
 }
