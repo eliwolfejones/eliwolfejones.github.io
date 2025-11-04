@@ -21,7 +21,7 @@ main {
     background-image: url("getty_180262211_372628.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: left top;
 }
 
 section {
@@ -85,6 +85,6 @@ section > .instructions {
 }
 
 /* change the color in the last section due to the background image */
-#section5 p {
+section p {
     background-color: #cfddebbb;
 }
