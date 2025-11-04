@@ -7,7 +7,7 @@
 	margin: 0; 
 }
 
-h1 {
+html, h1 {
     font-family: "Stack Sans Notch", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -30,7 +30,6 @@ main {
 section {
     position: relative;
     height: 100vh;
-
 }
 
 #section1 {
@@ -43,7 +42,7 @@ section > .content {
     width: 42vw;
     top: 20vh;
     right: min(4vw, calc( 4vw * 3 * var(--progress) ) ); 
-    opacity: calc( 8 * var(--progress) );
+    opacity: calc( 8 * var(--progress) ); 
 }
 
 #section1 > .content,
@@ -53,6 +52,7 @@ section > .content {
 }
 
 
+section > .content > p {
     font-size: 2rem;
     padding: 1rem;
 }
