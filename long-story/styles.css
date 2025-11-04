@@ -7,7 +7,7 @@
 	margin: 0; 
 }
 
-html, body {
+html, h1 {
     font-family: "Stack Sans Notch", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
