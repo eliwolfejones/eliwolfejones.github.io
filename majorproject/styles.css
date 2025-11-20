@@ -1,6 +1,5 @@
-/* CSS for responsive menu demo */
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
 
-/* define variables */
 :root {
     --nav-height: 3rem;
     --nav-bkgd-color: gray;
@@ -107,6 +106,10 @@ nav>ul>li>ul>li:hover a {
 
 main {
     padding: 1rem;
+}
+
+h1 {
+    font-family: 'Shalimar', cursive;
 }
 
 h2 {
