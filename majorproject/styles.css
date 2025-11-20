@@ -113,6 +113,14 @@ h2 {
     text-align: center;
 }
 
+#quadeca-image {
+    position: absolute;
+    background-image: url("concert1.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
 
