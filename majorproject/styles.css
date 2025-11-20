@@ -2,7 +2,7 @@
 
 :root {
     --nav-height: 3rem;
-    --nav-bkgd-color: 1c2536;
+    --nav-bkgd-color: gray;
     --nav-text-color: white;
     --nav-hover-bkgd-color: lightgray;
     --nav-hover-text-color: black;
@@ -109,7 +109,7 @@ main {
 }
 
 h1 {
-    font-family: 'Shalimar', cursive;
+    font-family: 'Shalimar';
     font-size: 3rem;
 }
 
