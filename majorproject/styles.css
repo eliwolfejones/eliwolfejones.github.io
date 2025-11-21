@@ -154,7 +154,7 @@ main {
 
 .albums {
     width: 100%;
-    height: 120vh;
+    height: 70vh;
     position: relative;
     padding: 1rem;
 }
@@ -245,6 +245,7 @@ img.albums {
     height: 50vh;
     width: 100%;
     margin: 0 auto;
+    left: 50px;
 }
     
 .albums img {
@@ -257,7 +258,7 @@ img.albums {
 
 .scrapyardcover {
     left: calc(100% * 1/4);
-    top: 27.2%;
+    top: 16px;
 }
 
 .idmthycover {
@@ -268,7 +269,7 @@ img.albums {
 .vanishercover {
     position: absolute;
     left: calc(100% * 3/4);
-    top: 27.2%;
+    top: 16px;
 }
     
 }
