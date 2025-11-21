@@ -111,6 +111,7 @@ h2 a{
     text-decoration: none;
 }
 h2 a:hover {
+    font-size: 2em;
     color: #d2b373 !important;
     transition: 0.3s;
 }
