@@ -106,11 +106,11 @@ nav>ul>li>ul>li:hover a {
     color: var(--nav-hover-text-color);
 }
 
-h2 a{
+h2 h3 a{
     color: white;
     text-decoration: none;
 }
-h2 a:hover {
+h2 h3 a:hover {
     font-size: 2em;
     color: #d2b373 !important;
     transition: 0.3s;
