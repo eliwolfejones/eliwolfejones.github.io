@@ -152,6 +152,12 @@ body {
     color: white;
 }
 
+.hoodie {
+    margin-top: 80%;
+    left: calc(100% * 0/2)
+}
+
+
 .hometitle {
     position: absolute;
     z-index: 0;
@@ -164,10 +170,6 @@ body {
 main {
     width: 95%;
     margin: 0 auto;
-}
-
-.merchtitle {
-    padding-top: 40vh;
 }
 
 .albums, .otherprojects, .merch {
@@ -318,5 +320,14 @@ h3 {
     position: absolute;
     left: 10%
 }
+
+.merchtitle {
+    padding-top: 40vh;
+}
     
+.hoodie {
+    margin-top: 0;
+    left: 25vw;
+}
+
 }
