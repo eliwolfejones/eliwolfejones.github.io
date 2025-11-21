@@ -120,10 +120,6 @@ h2 {
 #quadeca-image {
     position: absolute;
     background-image: url("concert.jpg");
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    background-position: center;
 }
 
 .section #albums {
