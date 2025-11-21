@@ -208,8 +208,8 @@ img.albums, img.otherprojects {
     size: 100px;
 }
 
-.vanishermovie {
-
+.idmthymovie {
+    margin-top: 2rem;
 }
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
