@@ -123,7 +123,7 @@ header {
 }
 
 .homedescription {
-    position: ;
+    position: relative;
     z-index: 2;
     color: white;
     margin: 0;
