@@ -111,9 +111,13 @@ h2 a, h3 a{
     text-decoration: none;
 }
 h2 a:hover, h3 a:hover {
-    font-size: 1em;
+    font-size: 30px;
     color: #d2b373 !important;
     transition: 0.3s;
+}
+
+h3 a:hover {
+    font-size: 20px;
 }
 
 h2 {
