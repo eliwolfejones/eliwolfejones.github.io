@@ -169,21 +169,23 @@ main {
 
 .fmtycover {
     position: absolute;
+    left: calc(100% * 0/2);
 }
 
 .scrapyardcover {
     position: absolute;
     top: 60%;
+    left: calc(100% * 0/2);
 }
 
 .idmthycover {
     position: absolute;
-    left: 50%;
+    left: calc(100% * 1/2);
 }
 
 .vanishercover {
     position: absolute;
-    left: 50%;
+    left: calc(100% * 1/2);
     top: 60%;
 }
 
