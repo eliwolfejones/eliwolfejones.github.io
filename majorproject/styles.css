@@ -303,5 +303,16 @@ h3 {
     left: calc(100% * 3/4);
     top: 16px;
 }
+
+.idmthymovie {
+    position: absolute;
+    left: 60%;
+    margin-top: 0;
+}
+
+.vanishermovie {
+    position: absolute;
+    left: 10%
+}
     
 }
