@@ -148,6 +148,10 @@ header {
     position: relative;
 }
 
+h3 {
+    text-align: center;
+}
+
 img.albums {
     size: 300px;
 }
