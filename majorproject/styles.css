@@ -208,6 +208,10 @@ img.albums, img.otherprojects {
     size: 100px;
 }
 
+iframe {
+    max-width: 100%;
+}
+
 .idmthymovie {
     margin-top: 2rem;
 }
