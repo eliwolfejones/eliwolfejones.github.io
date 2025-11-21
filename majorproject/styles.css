@@ -130,7 +130,7 @@ header {
     position: relative;
     background-image: url("Quadeca-CI7A9836-scaled.jpg");
     background-size: cover;
-    background-position: 46 rem center;
+    background-position: 46rem center;
     min-height: 75vh;
     display: flex;
     align-items: flex-end; 
