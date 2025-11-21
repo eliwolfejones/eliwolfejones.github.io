@@ -106,11 +106,11 @@ nav>ul>li>ul>li:hover a {
     color: var(--nav-hover-text-color);
 }
 
-h2 h3 a{
+h2 a, h3 a{
     color: white;
     text-decoration: none;
 }
-h2 h3 a:hover {
+h2, h3 a:hover {
     font-size: 1.6em;
     color: #d2b373 !important;
     transition: 0.3s;
@@ -162,38 +162,38 @@ main {
     margin: 0 auto;
 }
 
-.albums {
+.albums, .otherprojects {
     width: 100%;
     height: 70vh;
     position: relative;
     padding: 1rem;
 }
 
-.albums h2 {
+.albums, .otherprojects h2 {
     padding: 1rem;
 }
 
-.albums img {
+.albums, .otherprojects img {
     width: 160px;
 }
 
-.fmtycover {
+.fmtycover, .blushcover {
     position: absolute;
     left: calc(100% * 0/2);
 }
 
-.scrapyardcover {
+.scrapyardcover, .stardustcover {
     position: absolute;
     top: 60%;
     left: calc(100% * 0/2);
 }
 
-.idmthycover {
+.idmthycover, .runningcover {
     position: absolute;
     left: calc(100% * 1/2);
 }
 
-.vanishercover {
+.vanishercover, .sunshinecover {
     position: absolute;
     left: calc(100% * 1/2);
     top: 60%;
@@ -203,7 +203,7 @@ h3 {
     text-align: center;
 }
 
-img.albums {
+img.albums, img.otherprojects {
     size: 100px;
 }
 
@@ -253,32 +253,32 @@ img.albums {
     font-size: 20px;
 }
 
-.albums {
+.albums, .otherprojects {
     height: 50vh;
     width: 100%;
     margin: 0 auto;
     left: 50px;
 }
     
-.albums img {
+.albums img, .otherprojects img {
     width: 300px;
 }
 
-.fmtycover {
+.fmtycover, .blushcover {
     left: calc(100% * 0/4);
 }
 
-.scrapyardcover {
+.scrapyardcover, .stardustcover {
     left: calc(100% * 1/4);
     top: 16px;
 }
 
-.idmthycover {
+.idmthycover, .runningcover {
     position: absolute;
     left: calc(100% *2/4);
 }
 
-.vanishercover {
+.vanishercover, .sunshinecover {
     position: absolute;
     left: calc(100% * 3/4);
     top: 16px;
