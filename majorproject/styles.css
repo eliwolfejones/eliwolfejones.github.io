@@ -119,11 +119,11 @@ h2 {
 
 #hometitle {
     margin-top: 0;
+    width: 100vw;
     position: absolute;
     text-align: left;
     font-family: 'Shalimar';
     font-size: 4rem;
-    margin-bottom: 0;
 }
 
 #quadecaimage {
