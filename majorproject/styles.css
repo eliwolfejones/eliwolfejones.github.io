@@ -126,7 +126,7 @@ header {
     position: relative;
     background-image: url("Quadeca-CI7A9836-scaled.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 46 rem center;
     min-height: 75vh;
     display: flex;
     align-items: flex-end; 
@@ -257,10 +257,13 @@ iframe {
         content: "";
     }
 
+header {
+    background-position: center;
+}
+
 h3 {
     width: 20rem;
 }
-
 
 .homedescription {
     font-size: 20px;
