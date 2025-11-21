@@ -126,6 +126,10 @@ h2 {
     background-position: center;
 }
 
+.section #albums {
+    position: relative;
+}
+
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
 
