@@ -127,6 +127,7 @@ h2 {
 }
 
 #quadecaimage {
+    margin-top: 0;
     position: absolute;
     background-image: url("Quadeca-CI7A9836-scaled.jpg");
     height: 100vh;
