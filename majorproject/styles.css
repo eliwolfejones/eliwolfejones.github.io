@@ -118,6 +118,7 @@ h2 {
 }
 
 #hometitle {
+    position: absolute;
     text-align: left;
     font-family: 'Shalimar';
     font-size: 4rem;
