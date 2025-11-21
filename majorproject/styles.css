@@ -110,8 +110,8 @@ h2 a, h3 a{
     color: white;
     text-decoration: none;
 }
-h2, h3 a:hover {
-    font-size: 1.6em;
+h2 a:hover, h3 a:hover {
+    font-size: 1em;
     color: #d2b373 !important;
     transition: 0.3s;
 }
