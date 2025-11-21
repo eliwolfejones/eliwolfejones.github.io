@@ -147,6 +147,10 @@ header {
     position: relative;
 }
 
+.fmytcover .vanishercover .scrapyardcover .idmthycover {
+    size: 100px;
+}
+
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
 
