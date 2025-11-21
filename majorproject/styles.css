@@ -148,8 +148,8 @@ header {
     position: relative;
 }
 
-.fmytcover .vanishercover .scrapyardcover .idmthycover {
-    size: 100px;
+img.albums {
+    size: 300px;
 }
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
