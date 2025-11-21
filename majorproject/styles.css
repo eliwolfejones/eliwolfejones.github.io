@@ -117,8 +117,20 @@ h2 {
     text-align: center;
 }
 
-#quadeca-image {
+#hometitle {
+    text-align: left;
+    font-family: 'Shalimar';
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+#quadecaimage {
+    position: absolute;
     background-image: url("concert.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center center;
 }
 
 .section #albums {
