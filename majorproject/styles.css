@@ -141,7 +141,7 @@ header {
     font-size: 3rem;
 }
 
-#albums {
+.albums {
     top: 100vh;
     height: 100vh;
     position: relative;
