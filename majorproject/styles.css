@@ -106,6 +106,15 @@ nav>ul>li>ul>li:hover a {
     color: var(--nav-hover-text-color);
 }
 
+h2 a{
+    color: white;
+    text-decoration: none;
+}
+h2 a:hover {
+    color: #d2b373 !important;
+    transition: 0.3s;
+}
+
 h2 {
     text-align: center;
 }
