@@ -131,11 +131,14 @@ header {
     font-size: 20px;
 }
 
+body {
+    background-color: #1c2536;
+    color: white;
+}
 
 .hometitle {
     position: absolute;
     z-index: 2;
-    color: white;
     margin: 0;
     top: 0;
     font-family: 'Shalimar';
@@ -143,9 +146,37 @@ header {
 }
 
 .albums {
-    top: 100vh;
-    height: 100vh;
+    height: 120vh;
     position: relative;
+    padding: 1rem;
+}
+
+.albums h2 {
+    padding: 1rem;
+}
+
+.albums img {
+    width: 300px;
+}
+
+.fmtycover {
+    position: absolute;
+}
+
+.scrapyardcover {
+    position: absolute;
+    top: 60%;
+}
+
+.idmthycover {
+    position: absolute;
+    left: 50%;
+}
+
+.vanishercover {
+    position: absolute;
+    left: 50%;
+    top: 60%;
 }
 
 h3 {
