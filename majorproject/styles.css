@@ -246,6 +246,10 @@ iframe {
     background-color: black;
 }
 
+idmthypage {
+    background-color: #9e8658;
+}
+
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
 
