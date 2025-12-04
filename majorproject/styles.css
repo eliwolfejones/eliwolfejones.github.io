@@ -337,19 +337,23 @@ h1 {
     font-size: 50px;
 }
 
-h2 {
-    font-size: 40px;
-}
-
 .albumimg img {
-    width: 50vw;
+    max-width: 600px;
+    position: absolute;
 }
 
 .albumdesc {
     width: 50vw;
     font-size: 30px;
-    left: 60%;
+    left: 40%;
     margin-top: 0;
+    position: relative;
+}
+
+.fmtysection, .idmthysection, .scrapyardsection, .vanishersection {
+    position: relative;
+    height: 50vh;
+    margin-top: 30vh;
 }
 
 }
