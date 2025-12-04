@@ -242,11 +242,11 @@ iframe {
     padding: 15px;
 }
 
-.fmtypage {
+.fmtypage, .scrapyardpage {
     background-color: black;
 }
 
-idmthypage {
+.idmthypage {
     background-color: #9e8658;
 }
 
