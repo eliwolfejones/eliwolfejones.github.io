@@ -333,4 +333,19 @@ h3 {
     left: 25vw;
 }
 
+h1 {
+    font-size: 50px;
+}
+
+.albumimg img {
+    width: 50vw;
+}
+
+.albumdesc {
+    width: 50vw;
+    font-size: 30px;
+    left: 60%;
+    margin-top: 0;
+}
+
 }
