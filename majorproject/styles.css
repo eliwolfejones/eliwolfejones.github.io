@@ -242,6 +242,10 @@ iframe {
     padding: 15px;
 }
 
+.fmtypage {
+    background-color: black;
+}
+
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
 
@@ -377,7 +381,7 @@ h1 {
 .desc {
     position: relative;
     left: 42vw;
-    width: 55%;
+    width: 50%;
     font-size: 35px;
 }
 
@@ -389,6 +393,15 @@ h1 {
 
 .tracklist li {
     font-size: 30px
+}
+
+.half1 {
+    position: absolute;
+}
+
+.half2 {
+    position: absolute;
+    left: 60vw
 }
 
 }
