@@ -350,7 +350,7 @@ h1 {
     position: relative;
 }
 
-.fmtysection, .idmthysection, .scrapyardsection, .vanishersection {
+.albumsection {
     position: relative;
     height: 50vh;
     margin-top: 30vh;
