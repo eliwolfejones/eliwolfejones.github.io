@@ -225,6 +225,10 @@ iframe {
     margin-top: 2rem;
 }
 
+.albumimg img{
+    width: 100%;
+}
+
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
 
