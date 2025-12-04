@@ -376,14 +376,14 @@ h1 {
 
 .desc {
     position: relative;
-    left: 40vw;
+    left: 42vw;
     width: 50%;
     font-size: 35px;
 }
 
 .tracklist {
     position: relative;
-    top: 100px;
+    top: 350px;
     height: 10px;
 }
 
