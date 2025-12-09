@@ -264,6 +264,12 @@ iframe {
     background-position: 175vw ;
 }
 
+.aboutpage p {
+    position: relative;
+    top: 83vh;
+    margin: 5px
+}
+
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
 
