@@ -354,6 +354,13 @@ iframe {
     grid-template-columns: repeat(2, calc(100% / 2));
     grid-template-rows: repeat(11, auto);
     grid-template-areas:
+        "title title"
+        "c1 c2"
+        "c3 c4"
+        "c5 c6"
+        "c7 c8"
+        "c9 c10"
+        "c11 c12";
 }
 
 .merchpage #merchtitle { grid-area: title; }
@@ -363,6 +370,12 @@ iframe {
 .merchpage #c4 { grid-area: c4; }
 .merchpage #c5 { grid-area: c5; }
 .merchpage #c6 { grid-area: c6; }
+.merchpage #c7 { grid-area: c7; }
+.merchpage #c8 { grid-area: c8; }
+.merchpage #c9 { grid-area: c9; }
+.merchpage #c10 { grid-area: c10; }
+.merchpage #c11 { grid-area: c11; }
+.merchpage #c12 { grid-area: c12; }
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
