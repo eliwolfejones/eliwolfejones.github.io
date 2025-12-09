@@ -280,6 +280,7 @@ iframe {
     grid-template-columns: repeat(2, calc(100% / 2));
     grid-template-rows: repeat(11, auto);
     grid-template-areas:
+        "title title"
         "t1 t1"
         "c1 c2"
         "c3 c4"
@@ -303,6 +304,7 @@ iframe {
         "c33 c34";
 }
 
+.gridlayour #title { grid-area: title; }
 .gridlayout #c1 { grid-area: c1; }
 .gridlayout #c2 { grid-area: c2; }
 .gridlayout #c3 { grid-area: c3; }
