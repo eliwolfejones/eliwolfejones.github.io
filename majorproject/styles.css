@@ -264,7 +264,7 @@ iframe {
     background-position: 175vw ;
 }
 
-.aboutpage p {
+.aboutdesc {
     position: relative;
     top: 85vh;
     margin: 5px;
@@ -447,7 +447,7 @@ h1 {
     margin: 1vw;
 }
 
-.aboutpage p {
+.aboutdesc {
     position: absolute;
     top: 0;
     left: 50vw;
