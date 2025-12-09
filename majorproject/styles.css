@@ -305,7 +305,7 @@ iframe {
         "c33 .";
 }
 
-.gridlayour #videostitle { grid-area: title; }
+.gridlayout #videostitle { grid-area: title; }
 .gridlayout #c1 { grid-area: c1; }
 .gridlayout #c2 { grid-area: c2; }
 .gridlayout #c3 { grid-area: c3; }
