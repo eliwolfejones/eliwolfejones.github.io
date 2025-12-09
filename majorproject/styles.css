@@ -524,7 +524,7 @@ h1 {
 }
 
 .tracklist {
-    position: relative;
+    margin-top: 50px;
     top: 350px;
     height: 10px;
 }
