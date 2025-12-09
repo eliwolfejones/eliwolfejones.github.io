@@ -201,7 +201,7 @@ main {
     left: calc(100% * 1/2);
 }
 
-.vanishercover, .sunshinecover {
+.vanishercover, .sunshinecover, .hoodie {
     position: absolute;
     left: calc(100% * 1/2);
     top: 60%;
