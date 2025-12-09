@@ -134,7 +134,7 @@ header {
     position: relative;
     background-image: url("Quadeca-CI7A9836-scaled.jpg");
     background-size: cover;
-    background-position: 46rem center;
+    background-position: center center;
     min-height: 75vh;
     display: flex;
     align-items: flex-end; 
@@ -345,6 +345,11 @@ iframe {
 .gridlayout #t3 { grid-area: t3; }
 .gridlayout #t4 { grid-area: t4; }
 
+#videospage iframe {
+    padding: 10px;
+    margin-top: 10px;
+}
+
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
 
@@ -523,6 +528,10 @@ h1 {
     left: 50vw;
     width: 95%;
     font-size: 30px
+}
+
+.gridlayout div {
+    margin-left: 6vw;
 }
 
 }
