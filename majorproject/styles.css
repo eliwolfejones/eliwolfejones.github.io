@@ -257,6 +257,11 @@ iframe {
 .aboutpage {
     background-image: url("profile.jpg");
     background-size: cover;
+    height: 93vh;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    background-position: 175vw ;
 }
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
