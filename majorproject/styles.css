@@ -377,6 +377,14 @@ iframe {
 .merchpage #c11 { grid-area: c11; }
 .merchpage #c12 { grid-area: c12; }
 
+.merchpage div {
+    margin-top: 4rem;
+} 
+
+.merchpage {
+    width: 90%;
+}
+
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
 
@@ -566,5 +574,9 @@ h1 {
         "c5 c6 c7 c8"
         "c9 c10 c11 c12";
 }
+
+.merchpage div {
+    margin-top: 8rem;
+} 
 
 }
