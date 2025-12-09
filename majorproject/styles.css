@@ -267,12 +267,12 @@ iframe {
 .aboutpage p {
     position: relative;
     top: 85vh;
-    margin: 5px
+    margin: 5px;
+    margin-top: 10px;
 }
 
 .abouttitle {
     margin: 3vw;
-}margin: 5px
 }
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
