@@ -387,7 +387,7 @@ iframe {
 }
 
 p, h1, h2, h3, li {
-    
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
