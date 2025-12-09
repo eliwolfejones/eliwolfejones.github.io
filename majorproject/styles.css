@@ -242,7 +242,7 @@ iframe {
 }
 
 .fmtypage, .scrapyardpage {
-    background-color: black;
+    background-color: #2e2d2d;
 }
 
 .idmthypage {
@@ -578,5 +578,9 @@ h1 {
 .merchpage div {
     margin-top: 8rem;
 } 
+
+.merchpage img{
+    width: 320px
+}
 
 }
