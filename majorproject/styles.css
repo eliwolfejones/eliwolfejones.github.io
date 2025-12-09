@@ -556,4 +556,15 @@ h1 {
     margin-left: 6vw;
 }
 
+.merchpage {
+    display: grid;
+    grid-template-columns: repeat(4, calc(100% /4));
+    grid-template-rows: repeat(11, auto);
+    grid-template-areas:
+        "title title title title"
+        "c1 c2 c3 c4"
+        "c5 c6 c7 c8"
+        "c9 c10 c11 c12";
+}
+
 }
