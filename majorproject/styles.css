@@ -145,7 +145,7 @@ header {
 .homedescription {
     position: relative;
     z-index: 2;
-    color: white;
+    color: black;
     margin: 0;
     bottom: 0;
     font-size: 15px;
@@ -266,8 +266,13 @@ iframe {
 
 .aboutpage p {
     position: relative;
-    top: 83vh;
+    top: 85vh;
     margin: 5px
+}
+
+.abouttitle {
+    margin: 3vw;
+}margin: 5px
 }
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
