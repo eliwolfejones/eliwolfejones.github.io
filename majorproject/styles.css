@@ -254,6 +254,11 @@ iframe {
     background-color: #9e8658;
 }
 
+.aboutpage {
+    background-image: url("profile.jpg");
+    background-size: cover;
+}
+
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
 
