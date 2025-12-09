@@ -437,4 +437,22 @@ h1 {
     left: 60vw
 }
 
+.aboutpage {
+    background-position: center;
+    height: 100%;
+    width: 50%;
+}
+
+.abouttitle {
+    margin: 1vw;
+}
+
+.aboutpage p {
+    position: absolute;
+    top: 0;
+    left: 50vw;
+    width: 95%;
+    font-size: 26px
+}
+
 }
