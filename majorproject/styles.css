@@ -157,6 +157,10 @@ body {
     color: white;
 }
 
+p, h1, h2, h3, li {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .hometitle {
     position: absolute;
     z-index: 0;
@@ -384,10 +388,6 @@ iframe {
 
 .merchpage {
     width: 90%;
-}
-
-p, h1, h2, h3, li {
-    font-family: 'Montserrat', sans-serif;
 }
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
