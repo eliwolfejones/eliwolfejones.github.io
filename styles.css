@@ -134,7 +134,6 @@ section {
 }
 
 .btn {
-    margin: 10;
     background: #36865A;
     color: #0FDB6B;
     padding: 10px 10px;
@@ -169,6 +168,16 @@ hr {
     gap: 20px;
     padding: 60px 20px;
     flex-wrap: wrap;
+}
+
+.mainsection, .majorprojectsection {
+    margin: 5vh;
+    margin-top: 0;
+    height: 33vh;
+}
+
+p {
+    margin: 5vh
 }
 
 
