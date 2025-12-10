@@ -144,6 +144,28 @@ hr {
     width: 96%;
 }
 
+.smlbtn {
+    text-decoration: none;
+    background: #36865A;
+    padding: 10px 20px;
+    border-radius: 16px;
+    width: 500px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.3s;
+    border: 1px solid #658675;
+}
+
+.tinyprojectsection, .codelogsection {
+    height: 60vh ;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+}
+
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
