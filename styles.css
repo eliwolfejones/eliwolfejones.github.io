@@ -116,8 +116,8 @@ body {
 }
 
 a {
-    color: #36865A
-    
+    color: #0FDB6B;
+    text-decoration: none;
 }
 
 section {
@@ -126,6 +126,11 @@ section {
     align-items: center;
     justify-content: center;
     text-align: center;
+        display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
 }
 
 .btn {
@@ -149,7 +154,7 @@ hr {
     background: #36865A;
     padding: 10px 20px;
     border-radius: 16px;
-    width: 500px;
+    width: 200px;
     text-align: center;
     font-weight: 500;
     font-size: 17px;
@@ -157,8 +162,8 @@ hr {
     border: 1px solid #658675;
 }
 
-.tinyprojectsection, .codelogsection {
-    height: 60vh ;
+.tinyprojectsection, .codelogsection{
+    height: 60vh;
     display: flex;
     justify-content: center;
     gap: 20px;
