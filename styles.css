@@ -117,6 +117,31 @@ body {
 
 a {
     color: #36865A
+    
+}
+
+section {
+    height: 17vh;
+    margin-top: 5vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    margin: 10;
+    background: #36865A;
+    color: #0FDB6B;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+hr {
+    margin-left: 0;
+    width: 96%;
 }
 
 
