@@ -3,10 +3,10 @@
 /* define variables */
 :root {
     --nav-height: 3rem;
-    --nav-bkgd-color: gray;
-    --nav-text-color: white;
-    --nav-hover-bkgd-color: lightgray;
-    --nav-hover-text-color: black;
+    --nav-bkgd-color: #36865A;
+    --nav-text-color: #0FDB6B;
+    --nav-hover-bkgd-color: #658675;
+    --nav-hover-text-color: #5BDB97;
 }
 
 * {
@@ -105,6 +105,19 @@ nav>ul>li>ul>li:hover {
 
 nav>ul>li>ul>li:hover a {
     color: var(--nav-hover-text-color);
+}
+
+main {
+    margin-left: 2vw
+}
+
+body {
+    background-color: #26332C;
+    color: #0FDB6B;
+}
+
+a {
+    color: #36865A
 }
 
 
