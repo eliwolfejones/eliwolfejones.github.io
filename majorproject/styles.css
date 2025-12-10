@@ -592,9 +592,5 @@ h1 {
     width: 320px
 }
 
-.albumsmain, .othersongsmain footer {
-    position: relative;
-    top: 20vh
-}
 
 }
