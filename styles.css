@@ -133,9 +133,10 @@ section {
 
 .btn {
     background: #36865A;
-    padding: 10px 10px;
+    padding: 10px 30px;
     border-radius: 20px;
     transition: 0.3s;
+    font-size: 25px
 }
 
 hr {
@@ -174,6 +175,9 @@ p {
     font-size: 20px;
 }
 
+.btn:hover, .smlbtn:hover {
+    background-color: #658675;
+}
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
